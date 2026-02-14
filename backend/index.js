@@ -12,7 +12,7 @@ const PORT = process.env.BACKEND_PORT || 5000;
 const __dirname = path.resolve();
 
 app.use(cors({
-    origin: "http://localhost:5000", // Only allow requests from this origin
+    origin: "https://mern-auth-p2j9.onrender.com", // Only allow requests from this origin
     credentials: true
 }));
 app.use(express.json()); // Middleware to parse JSON bodies
